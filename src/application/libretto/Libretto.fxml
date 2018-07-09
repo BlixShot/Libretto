@@ -14,7 +14,7 @@
       <children>
         <GridPane prefHeight="137.0" prefWidth="-1.0">
           <children>
-            <TextField fx:id="txtTitolo" prefWidth="177.0" GridPane.columnIndex="0" GridPane.rowIndex="1">
+            <TextField id="txtTitolo" fx:id="txtCodice" prefWidth="177.0" GridPane.columnIndex="0" GridPane.rowIndex="1">
               <GridPane.margin>
                 <Insets left="3.0" />
               </GridPane.margin>

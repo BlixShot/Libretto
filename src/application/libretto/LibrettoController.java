@@ -24,12 +24,16 @@ public class LibrettoController {
     private Button buttonInserisci;
 
     @FXML
+    private TextField txtCodice;
+
+    @FXML
     private TextField txtDocent;
 
     @FXML
     private TextArea txtMessage;
 
-    // WARNING: fx:id="txtTitolo" cannot be injected: several objects share the same fx:id;
+    @FXML
+    private TextField txtTitolo;
 
 
     @FXML
@@ -38,17 +42,19 @@ public class LibrettoController {
 
     @FXML
     void handleInserisci(ActionEvent event) {
-    	//recupera e verifica i dati inseriti e chiedi al model di effettuare l'inserimento e aggiorna la vista
     }
 
     @FXML
     void initialize() {
         assert buttonCerca != null : "fx:id=\"buttonCerca\" was not injected: check your FXML file 'Libretto.fxml'.";
         assert buttonInserisci != null : "fx:id=\"buttonInserisci\" was not injected: check your FXML file 'Libretto.fxml'.";
+        assert txtCodice != null : "fx:id=\"txtCodice\" was not injected: check your FXML file 'Libretto.fxml'.";
         assert txtDocent != null : "fx:id=\"txtDocent\" was not injected: check your FXML file 'Libretto.fxml'.";
         assert txtMessage != null : "fx:id=\"txtMessage\" was not injected: check your FXML file 'Libretto.fxml'.";
+        assert txtTitolo != null : "fx:id=\"txtTitolo\" was not injected: check your FXML file 'Libretto.fxml'.";
 
 
     }
 
 }
+
